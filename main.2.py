@@ -10,6 +10,7 @@ class Human:
         self.job = job
         self.home = home
         self.car = car
+        self.mess = 80
 
     def get_home(self):
         self.home = Home()
@@ -51,21 +52,25 @@ class Human:
         self.satiety -= 4
 
 
-def shopping(self):
-    pass
+    def shopping(self):
+     pass
 
+    def chill(self):
+        if self.gladness < 50:
 
-def chill(self):
-    pass
+           self.mess -=20
+    def clear_home(self):
+        if self.mess():
+           self.mess += 0:
+        else:
+           self.gladness = 0
 
-
-def clear_home(self):
-    pass
-
-
-def to_repair(self):
-    pass
-
+    def to_repair(self):
+        if self.strenght():
+           self.strenght += 100:
+        else:
+           self.money():
+           self.money -= 100
 
 def indexes_day(self, day):
     pass
